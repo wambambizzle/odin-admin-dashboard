@@ -120,13 +120,38 @@
 }
 
 .announcements {
+  /* TODO: display flex */
   grid-column: 2;
   grid-row: 1 / 3;
   background-color: tomato;
 }
 
 .trending {
+  /* TODO: display flex */
   grid-column: 2;
   grid-row: 3 / 5;
   background-color: darkgreen;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-auto-rows: 300px;
+  gap: 16px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  border-left: 8px solid blue;
+  border-radius: 4px;
+  margin: 10px;
+}
+
+.sub-card {
+}
+
+.sub-section {
 }
