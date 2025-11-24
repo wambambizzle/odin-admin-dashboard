@@ -9,13 +9,15 @@
   grid-template-columns: 1fr 3fr;
   grid-template-rows: 1fr 2fr 2fr 2fr;
   height: 100vh;
-  width: 100vh;
 }
 
 .header {
-  background-color: green;
-  grid-row: 1;
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  grid-template-rows: 1fr 1fr;
   grid-column: 2 / 3;
+  padding: 20px 30px;
+  background-color: orange;
 }
 
 .sidebar {
@@ -30,9 +32,27 @@
 }
 
 .content {
-  background-color: yellow;
+  background-color: lightseagreen;
   grid-column: 2 / 3;
   grid-row: 2 / 5;
+}
+
+/* Header Section */
+
+.search-bar {
+  border: 3px solid purple;
+}
+
+.user-nav {
+  border: 3px solid green;
+}
+
+.user-profile {
+  border: 3px solid lightcoral;
+}
+
+.user-actions {
+  border: 3px solid lightgray;
 }
 
 /* Side Bar Section */
