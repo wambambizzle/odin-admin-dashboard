@@ -2,25 +2,65 @@
   margin: 0;
 }
 
+/* Main Containers */
+
 .container {
   display: grid;
   grid-template-columns: 1fr 3fr;
+  grid-template-rows: 1fr 2fr 2fr 2fr;
   height: 100vh;
+  width: 100vh;
 }
 
 .header {
   background-color: green;
+  grid-row: 1;
   grid-column: 2 / 3;
-  grid-row: 1 / 2;
 }
 
 .sidebar {
-  background-color: red;
+  display: grid;
+  grid-template-columns: 1fr;
+  background-color: palegreen;
   grid-column: 1;
-  grid-row: 1 / 4;
+  grid-row: 1 / 5;
+  gap: 50px;
+  align-content: start;
+  padding-left: 20px;
 }
 
 .content {
   background-color: yellow;
   grid-column: 2 / 3;
+  grid-row: 2 / 5;
+}
+
+/* Side Bar Section */
+
+.sidebar-dashboard {
+  background-color: purple;
+  display: grid;
+  grid-template-columns: 1;
+  grid-template-rows: 1;
+}
+
+.sidebar-nav {
+  background-color: aqua;
+  display: grid;
+  grid-template-columns: 1;
+  align-content: start;
+  gap: 30px;
+}
+
+.sidebar-settings {
+  background-color: cadetblue;
+  display: grid;
+  grid-template-columns: 1;
+  align-content: start;
+  gap: 30px;
+}
+
+.sidebar a {
+  color: white;
+  text-decoration: none;
 }
