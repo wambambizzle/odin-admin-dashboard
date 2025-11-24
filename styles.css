@@ -40,19 +40,41 @@
 /* Header Section */
 
 .search-bar {
-  border: 3px solid purple;
+  display: grid;
+  align-content: center;
+  grid-template-columns: 1fr 12fr;
 }
 
 .user-nav {
-  border: 3px solid green;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+  justify-self: end;
+  gap: 3px;
 }
 
 .user-profile {
-  border: 3px solid lightcoral;
+  display: grid;
+  /* Adjust based on size of asset */
+  grid-template-columns: 80px 1fr;
+  grid-template-rows: 2;
+  align-content: center;
+}
+
+.user-profile-icon {
+  align-content: start;
 }
 
 .user-actions {
-  border: 3px solid lightgray;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+  justify-self: end;
+  gap: 30px;
+}
+
+.search-box {
+  border: 3px solid lightblue;
 }
 
 /* Side Bar Section */
