@@ -2,6 +2,25 @@
   margin: 0;
 }
 
-html {
-  background-color: aqua;
+.container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  height: 100vh;
+}
+
+.header {
+  background-color: green;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.sidebar {
+  background-color: red;
+  grid-column: 1;
+  grid-row: 1 / 4;
+}
+
+.content {
+  background-color: yellow;
+  grid-column: 2 / 3;
 }
