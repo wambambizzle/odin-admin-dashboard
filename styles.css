@@ -88,6 +88,19 @@
   display: grid;
   grid-template-columns: 1;
   grid-template-rows: 1;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  font-size: 32px;
+  color: white;
+  gap: 6px;
+  flex-wrap: nowrap;
+}
+
+.sidebar-dashboard svg {
+  width: 50px;
+  height: auto;
+  fill: white;
 }
 
 .sidebar-nav {
@@ -105,11 +118,6 @@
   align-content: start;
   gap: 30px;
 }
-
-/* .sidebar a {
-  color: white;
-  text-decoration: none;
-} */
 
 /* Content Section */
 
@@ -158,11 +166,10 @@
 
 /* Logos & Icons */
 
-.sidebar svg {
+.sidebar-item svg {
   width: 30px;
   height: auto;
   fill: white;
-  height: auto;
 }
 
 .sidebar-item a {
@@ -176,7 +183,6 @@
 
 .sidebar-item {
   display: flex;
-  justify-content: start;
   justify-items: center;
   align-items: center;
   font-size: 24px;
