@@ -106,10 +106,10 @@
   gap: 30px;
 }
 
-.sidebar a {
+/* .sidebar a {
   color: white;
   text-decoration: none;
-}
+} */
 
 /* Content Section */
 
@@ -165,7 +165,12 @@
   height: auto;
 }
 
-.sidebar a:hover {
+.sidebar-item a {
+  text-decoration: none;
+}
+
+.sidebar-item:hover {
+  color: white;
   text-decoration: underline;
 }
 
