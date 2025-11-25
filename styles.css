@@ -347,6 +347,10 @@
   fill: darkgray;
 }
 
+.sharing svg:hover {
+  fill: #1992d4;
+}
+
 /* Anchor */
 
 a:visited,
