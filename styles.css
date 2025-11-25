@@ -17,7 +17,7 @@
   grid-template-rows: 1fr 1fr;
   grid-column: 2 / 3;
   padding: 20px 30px;
-  background-color: orange;
+  background-color: white;
 }
 
 .sidebar {
@@ -162,8 +162,6 @@
 .sub-section {
 }
 
-/* Logos & Icons */
-
 .sidebar-item svg {
   width: 30px;
   height: auto;
@@ -186,6 +184,24 @@
   font-size: 24px;
   gap: 10px;
   flex-wrap: nowrap;
+}
+
+/* Header Search */
+
+.search-bar svg {
+  width: 30px;
+  height: auto;
+}
+
+.search-box {
+  border: 0px;
+  border-radius: 16px;
+  height: 30px;
+  width: 100%;
+  outline: 0;
+  padding: 2px 8px 2px 8px;
+  background-color: #e2e8f0;
+  margin-left: -12px;
 }
 
 /* Anchor */
