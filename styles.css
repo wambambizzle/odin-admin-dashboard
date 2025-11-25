@@ -60,10 +60,11 @@
 
 .user-profile {
   display: grid;
-  /* Adjust based on size of asset */
-  grid-template-columns: 80px 1fr;
+  grid-template-columns: 65px 1fr;
   grid-template-rows: 2;
-  align-content: center;
+  /* align-items: center; */
+  /* align-content: center; */
+  gap: 8px;
 }
 
 .user-profile-icon {
@@ -202,7 +203,37 @@
   outline: 0;
   padding: 2px 8px 2px 8px;
   background-color: #e2e8f0;
+  /* TODO: revisit this */
   margin-left: -12px;
+}
+
+/* User Profile */
+
+.user-profile img {
+  width: 60px;
+  height: auto;
+  border-radius: 50%;
+  /* width: 20px;
+  height: auto; */
+}
+
+.user-nav img {
+  border-radius: 50%;
+  width: 50px;
+}
+
+.user-copy {
+  margin-top: 3px;
+}
+
+.user-copy .greeting {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.user-copy .user-name {
+  font-weight: 600;
+  font-size: 28px;
 }
 
 /* Anchor */
