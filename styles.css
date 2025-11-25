@@ -128,7 +128,7 @@
 }
 
 .projects h2 {
-  font-size: 28px;
+  font-size: 22px;
   color: black;
   padding-bottom: 12px;
 }
@@ -166,13 +166,14 @@
 }
 
 .card h3 {
-  font-size: 24px;
+  font-size: 18px;
 }
 
 .card p {
   font-size: 18px;
   line-height: 1.5;
   padding-top: 8px;
+  color: rgb(94, 94, 94);
 }
 
 .sub-card {
