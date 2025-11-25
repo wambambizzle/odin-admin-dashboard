@@ -192,12 +192,39 @@
 
 .sub-card p {
   font-size: 16px;
-  /* line-height: 1.5; */
   padding-top: 8px;
   color: rgb(94, 94, 94);
 }
 
-.sub-section {
+.trend-container {
+  background-color: white;
+  margin-right: 24px;
+  border-radius: 8px;
+  margin-top: 10px;
+  padding: 18px 18px;
+}
+
+.trend-card {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 8px;
+  margin-bottom: 18px;
+}
+
+.trend-card img {
+  border-radius: 50%;
+  width: 32px;
+}
+
+.trend-card {
+  font-size: 14px;
+  color: darkgrey;
+}
+
+.trend-user-name {
+  font-size: 18px;
+  color: black;
 }
 
 .sidebar-item svg {
