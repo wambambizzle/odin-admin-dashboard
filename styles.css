@@ -155,3 +155,26 @@
 
 .sub-section {
 }
+
+/* Logos & Icons */
+
+.sidebar svg {
+  width: 30px;
+  height: auto;
+  fill: white;
+  height: auto;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+.sidebar-item {
+  display: flex;
+  justify-content: start;
+  justify-items: center;
+  align-items: center;
+  font-size: 24px;
+  gap: 10px;
+  flex-wrap: nowrap;
+}
